@@ -1,0 +1,120 @@
+/*!
+ProtonMail Custom Theme (Metallic Green)
+Copyright (c) 2015 Udara Madubhashana
+https://twitter.com/UdaraU3
+*/
+
+#main footer .wrap, body #mainHeader, footer .wrap {
+  background: #273234;
+}
+#sidebar {
+  width: 13rem;
+  background: #273234;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  z-index: 1002;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#sidebar .storage {
+  position: fixed;
+  left: 0;
+  right: 1rem;
+  bottom: 0;
+  width: 13rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #273234;
+}
+#mainHeader .search.dark input {
+  width: 100%;
+  background: #33464c;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1),inset 0 1px 0 rgba(0,0,0,.1);
+  position: relative;
+  z-index: 4;
+}
+#compose_button a {
+  border: none;
+  background: #23a799;
+  transition: .2s;
+  box-shadow: none!important;
+}
+#compose_button a:active, #compose_button a:hover {
+  background: #008878;
+  transition: .2s;
+}
+.pure-button.pure-button-primary:focus, .pure-button.pure-button-primary:hover, body .ui-button.pure-
+
+button-primary:focus, body .ui-button.pure-button-primary:hover {
+  background: #789fb3;
+  background: -webkit-linear-gradient(#789fb3,#678899);
+  background: -o-linear-gradient(#789fb3,#678899);
+  background: -moz-linear-gradient(#789fb3,#678899);
+  background: linear-gradient(#23a799,#008878);
+}
+.pure-button.pure-button-primary, body .ui-button.pure-button-primary {
+  color: #fff;
+  border: 1px solid #5d7b8a;
+  background: #789fb3;
+  background: -webkit-linear-gradient(#789fb3,#678899);
+  background: -o-linear-gradient(#789fb3,#678899);
+  background: -moz-linear-gradient(#789fb3,#678899);
+  background: linear-gradient(#23a799,#008878);
+}
+.pure-button, body .ui-button {
+  box-sizing: border-box;
+  color: #666;
+  border: none!important;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+  background: #e5e5e5;
+  background: -webkit-linear-gradient(#fff,#e5e5e5);
+  background: -o-linear-gradient(#fff,#e5e5e5);
+  background: -moz-linear-gradient(#fff,#e5e5e5);
+  background: linear-gradient(#fff,#d9fffe);
+  background-size: 100% 100%!important;
+  transition: background-size .5s;
+  text-shadow: none!important;
+}
+#page-settings label.heading {
+  font-weight: 700;
+  color: rgba(39, 50, 52, 1);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+#headerListingActions.header {
+  background: #465a61;
+  right: 0;
+  clear: both;
+  z-index: 1000;
+}
+#sidebar ul.menu li a.active {
+  background: rgba(51, 70, 76, 1);
+  background-size: auto 100%!important;
+  transition: color .2s;
+  z-index: 4;
+  color: #fff;
+}
+.alert {
+  margin-bottom: .5rem;
+  background: #EBF9F8;
+  border-radius: 2px;
+  border: 1px solid #CBE4E3;
+  color: #333;
+  text-shadow: none;
+  padding: .5rem 1rem;
+  font-size: 13px;
+}
+.pure-form input:not(type]):focus, .pure-form inputtypecolor]:focus, .pure-form inputtypedate]:focus, .pure-form inputtypedatetime-local]:focus, .pure-form inputtypedatetime]:focus, .pure-form inputtypeemail]:focus, .pure-form inputtypemonth]:focus, .pure-form inputtypenumber]:focus, .pure-form inputtypepassword]:focus, .pure-form inputtypesearch]:focus, .pure-form inputtypetel]:focus, .pure-form inputtypetext]:focus, .pure-form inputtypetime]:focus, .pure-form inputtypeurl]:focus, .pure-form inputtypeweek]:focus, .pure-form select:focus, .pure-form textarea:focus {
+  outline: 0;
+  border-color: #23A799;
+}
+#footer .wrap {
+  background: #273234;
+  color: #ccc;
+}
